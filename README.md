@@ -28,8 +28,8 @@ $ export GODEBUG=http2debug=2
 ## Example Output
 
 Here you can watch server and client negotiate a connection, then the server
-close the connection after 30 seconds of inactivity, followed by the client
-succesfully reconnecting.
+close the connection after 30 seconds of inactivity (+/- 10% jitter), followed
+by the client succesfully reconnecting.
 
 ### Server
 
